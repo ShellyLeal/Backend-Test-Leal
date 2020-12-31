@@ -34,8 +34,8 @@ NOTE: The slack reminders must contain an URL to today's menu with the following
 # Aspects to be evaluated
 Since the system is very simple (yet powerful in terms of yumminess) we'll be evaluating, these aspects:
 
-# Functionality
-# Testing
+Functionality
+Testing
 Documentation
 Software design
 Programming style
@@ -43,5 +43,6 @@ Appropriate framework use
 Aspects to be ignored
 Visual design of the solution
 Deployment of the solution
+
 # Restrictions
 The usage of Django's admin is forbidden.
