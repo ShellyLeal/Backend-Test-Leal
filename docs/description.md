@@ -1,12 +1,12 @@
 # Cornershop's Backend Test
 This technical test requires the design and implementation (using Django) of a management system to coordinate the meal delivery for Cornershop employees.
 
-Before you begin
+# Before you begin
 You will need to create a private GitHub repository using the information that we provided in this README and invite as collaborators: @Javiergm94 @Stichy23 @Alecornershop.
 
 Should you have any technical questions, please contact osvaldo@cornershopapp.com Tittle of the project: Backend-Test-(Last Name)
 
-Description
+# Description
 The current process consist of a person (Nora) sending a text message via Whatsapp to all the chilean employees, the message contains today's menu with the different alternatives for lunch.
 
 Hello!
@@ -31,11 +31,11 @@ Nora should be the only user to be able to see what the Cornershop employees hav
 
 NOTE: The slack reminders must contain an URL to today's menu with the following pattern https://nora.cornershop.io/menu/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx (an UUID), this page must not require authentication of any kind.
 
-Aspects to be evaluated
+# Aspects to be evaluated
 Since the system is very simple (yet powerful in terms of yumminess) we'll be evaluating, these aspects:
 
-Functionality
-Testing
+# Functionality
+# Testing
 Documentation
 Software design
 Programming style
@@ -43,5 +43,5 @@ Appropriate framework use
 Aspects to be ignored
 Visual design of the solution
 Deployment of the solution
-Restrictions
+# Restrictions
 The usage of Django's admin is forbidden.
