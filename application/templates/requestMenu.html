@@ -1,0 +1,48 @@
+{% load widget_tweaks %}
+<head>
+
+  {% block title %}<title>Cornershop's Backend test</title>{% endblock %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <!-- Add additional CSS in static file -->
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+</head>
+<div class="container">
+    <h1 style="color: blue">
+      Request a meal from today's menu 
+    </h1>
+    {% for option in todays_menu %}
+      <ul>
+       <li>Option 1: {{ option.optionOne }}</li>
+       <li>Option 2: {{ option.optionTwo }}</li>
+       <li>Option 3: {{ option.optionThree }}</li>
+       <li>Option 4: {{ option.optionFour }}</li>
+      </ul>
+    {% endfor %}
+
+    <h3>
+        {{ note }}
+    </h3>
+
+    <form action="{% url 'appointMeal' %}" method="POST">
+          {% csrf_token %}
+          {% if requestMealForm != None%}
+            {% for field in requestMealForm %}
+            <div class="form-group">
+
+              {{ field.label_tag }}
+              {% render_field field class="form-control" %}
+
+            </div>
+            {% endfor %}
+            <input type="submit" value="I'm hungry!">
+          {% endif %}
+    </form>
+    <li><a href="{% url 'logout' %}">logout</a></li>
+</div>

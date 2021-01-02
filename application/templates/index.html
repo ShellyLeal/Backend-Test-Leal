@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Cornershop's Backend Test</h1>
+<h4>
+    Date: {{date}}
+</h4>
+<p>Welcome to admin page</p>
+{% if user.is_authenticated %}
+    <h4>You are logged as: {{user}}</h4>
+{% endif %}
+
+
+{% endblock %}

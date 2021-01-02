@@ -1,0 +1,9 @@
+Django==3.1.2
+unittest2==1.1.0
+django-crispy-forms==1.9.2
+django-widget-tweaks==1.4.8
+celery==5.0.1
+slack-client==0.3.0
+slackclient==2.9.3
+
+
