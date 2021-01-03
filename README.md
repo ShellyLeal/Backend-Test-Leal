@@ -60,14 +60,11 @@ For deleting the superuser, use the following commands inside the virtual enviro
   
 But remember, I recommended you to create users inside the testing environment, which can be done by using the available Unit Tests by the end of this tutorial.
 
-There are two mock members to represent the clients of the restaurant. Here are their following IDs and passwords:
+There is one mock member to represent the clients of the restaurant. Here are his following ID and password:
 
       # Company Worker called Justin
       username: justin
       password: user12345
-      # Company Worker called Sarah
-      username: sarah
-      password: sarah123
 
 Always remember to logout with one user before login in with the other. This is the same for Nora, the restaurant owner.
 
