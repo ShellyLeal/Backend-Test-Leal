@@ -21,11 +21,11 @@ Also remember to install the requirements by running the following command:
 Now you have to set the URL mora.cornershop.io. 
 Make an entry in hosts file, located in:
 
-        C:\Windows\System32\drivers\etc\hosts
+    C:\Windows\System32\drivers\etc\hosts
         
 and update the file with the following line:
 
-        127.0.0.1		noracornershop.io:8000
+    127.0.0.1		noracornershop.io:8000
 
 # Preparing the Slack environment
 
@@ -69,6 +69,7 @@ There are two mock members to represent the clients of the restaurant. Here are 
       username: sarah
       password: sarah123
 
+Always remember to logout with one user before login in with the other. This is the same for Nora, the restaurant owner.
 
 # Unit Testing Instructions
 You can run the tests with the following command: 
