@@ -6,6 +6,10 @@ Implementation of a management system to coordinate the meal delivery for Corner
 
 Trello Updates on the project steps (please be free to read about the step Future Implementations and colaborate): https://trello.com/b/u1iDFoU7/meal-management
 
+You may click and watch the following video demonstration:
+
+[![YoutubeTutorial](https://github.com/ShellyLeal/Backend-Test-Leal/blob/progress/docs/ytscreen.JPG)](https://www.youtube.com/watch?v=0q7QDdu4GHg)
+
 
 # Preparing the Django environment
 To clone the project, use the following command:
