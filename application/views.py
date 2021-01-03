@@ -23,13 +23,13 @@ def create_menu(request):
     if not User.objects.filter(username = 'justin').exists():
        User.objects.create_user(
          username='justin', 
-         email='jlennon@beatles.com', 
+         email='jlo@cornershop.com', 
          password='user12345'
        )
     if not User.objects.filter(username = 'sarah').exists():
        User.objects.create_user(
          username='sarah',
-         email='slennon@beatles.com', 
+         email='sleal@cornershop.com', 
          password='sarah123'
        )
 
