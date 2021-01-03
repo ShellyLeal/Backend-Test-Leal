@@ -48,11 +48,11 @@ But remember, I recommended you to create users inside the testing environment, 
 There are two mock members to represent the clients of the restaurant. Here are their following IDs and passwords:
 
       # Company Worker called Justin
-      justin
-      user12345
+      username: justin
+      password: user12345
       # Company Worker called Sarah
-      sarah
-      sarah123
+      username: sarah
+      password: sarah123
 
 
 # Unit Testing Instructions
