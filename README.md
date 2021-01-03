@@ -1,6 +1,9 @@
 # Backend-Test-Leal
 Implementation of a management system to coordinate the meal delivery for Cornershop employees.
 
+![Owner Page](https://github.com/ShellyLeal/Backend-Test-Leal/blob/progress/docs/ownerpage.JPG)
+
+
 Trello Updates on the project steps (please be free to read about the step Future Implementations and colaborate): https://trello.com/b/u1iDFoU7/meal-management
 
 
@@ -11,6 +14,9 @@ To clone the project, use the following command:
 
 Please create a virtual environment before working on the project. Here are the instructions for doing so: https://docs.python.org/pt-br/3/library/venv.html
 
+Also remember to install the requirements by running the following command:
+
+    $ pip install -r requirements.txt
 
 # Preparing the Slack environment
 
