@@ -242,7 +242,7 @@ def delete_orders(request, id):
     '''
     form = lunch.objects.get(id=id)
     form.delete()
-    return redirect(to='list')	
+    return redirect(to='requests')	
 
 @login_required
 @user_passes_test(sudo_check)

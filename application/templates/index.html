@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 style="color: #5e9ca0;">&nbsp;Cornershop's Restaurant</h1>
-<h2 style="color: #2e6c80;">&nbsp;&nbsp;Welcome,  {{user}}!!</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today is {{date}}</p>
+<h1 style="color: #5e9ca0;">Cornershop's Restaurant</h1>
+<h2 style="color: #2e6c80;">Welcome,  {{user}}!!</h2>
+<p>&nbsp;&nbsp;&nbsp;Today is {{date}}</p>
 
 {% if user.is_authenticated %}
     
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here are the the restaurant's management tools.</p>
+<p>&nbsp;&nbsp;Here are the the restaurant's management tools.</p>
 
 
 {% endif %}
