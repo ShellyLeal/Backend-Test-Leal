@@ -17,6 +17,15 @@ Please create a virtual environment before working on the project. Here are the 
 Also remember to install the requirements by running the following command:
 
     $ pip install -r requirements.txt
+    
+Now you have to set the URL mora.cornershop.io. 
+Make an entry in hosts file, located in:
+
+        C:\Windows\System32\drivers\etc\hosts
+        
+and update the file with the following line:
+
+        127.0.0.1		noracornershop.io:8000
 
 # Preparing the Slack environment
 
