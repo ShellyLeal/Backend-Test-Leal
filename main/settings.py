@@ -20,8 +20,8 @@ LIMIT_HOUR = HOUR # The limit hour to request the lunch
 # Slack integration credentials
 OAUTH_ACCESS_TOKEN = OAUTH_TOKEN
 CHANNEL = SLACK_CHANNEL
-URL = 'http://localhost:8000/menu/'
-
+#URL = 'http://localhost:8000/menu/'
+URL = 'http://noracornershop.io:8000/menu/'
 # Celery parameters
 CELERY_TIMEZONE = 'America/Sao_Paulo'
 CELERY_BROKER_URL = os.environ.get('CELERY_BROKER', 'pyamqp://guest@localhost//')
