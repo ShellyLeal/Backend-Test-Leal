@@ -7,6 +7,8 @@ Trello Updates on the project steps (please be free to read about the step Futur
 # Preparing the Django environment
 To clone the project, use the following command:
 
+    $ git clone https://github.com/ShellyLeal/Backend-Test-Leal.git
+
 Please create a virtual environment before working on the project. Here are the instructions for doing so: https://docs.python.org/pt-br/3/library/venv.html
 
 
