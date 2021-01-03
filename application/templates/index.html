@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Cornershop's Backend Test</h1>
-<h4>
-    Date: {{date}}
-</h4>
-<p>Welcome to admin page</p>
+<h1 style="color: #5e9ca0;">&nbsp;Cornershop's Restaurant</h1>
+<h2 style="color: #2e6c80;">&nbsp;&nbsp;Welcome,  {{user}}!!</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today is {{date}}</p>
+
 {% if user.is_authenticated %}
-    <h4>You are logged as: {{user}}</h4>
+    
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here are the the restaurant's management tools.</p>
+
+
 {% endif %}
 
 

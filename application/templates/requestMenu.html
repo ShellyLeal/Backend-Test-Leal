@@ -1,7 +1,7 @@
 {% load widget_tweaks %}
 <head>
 
-  {% block title %}<title>Cornershop's Backend test</title>{% endblock %}
+  {% block title %}<title>Cornershop's Restaurant</title>{% endblock %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -14,8 +14,8 @@
 
 </head>
 <div class="container">
-    <h1 style="color: blue">
-      Request a meal from today's menu 
+    <h1 style="color: green">
+      Choose one of the options from the menu: 
     </h1>
     {% for option in todays_menu %}
       <ul>
@@ -44,5 +44,5 @@
             <input type="submit" value="I'm hungry!">
           {% endif %}
     </form>
-    <li><a href="{% url 'logout' %}">logout</a></li>
+    <li><a href="{% url 'logout' %}">Logout</a></li>
 </div>

@@ -23,7 +23,7 @@ CHANNEL = SLACK_CHANNEL
 URL = 'http://localhost:8000/menu/'
 
 # Celery parameters
-CELERY_TIMEZONE = 'America/Santiago'
+CELERY_TIMEZONE = 'America/Sao_Paulo'
 CELERY_BROKER_URL = os.environ.get('CELERY_BROKER', 'pyamqp://guest@localhost//')
 CELERY_RESULT_BACKEND = os.environ.get('CELERY_BROKER', 'pyamqp://guest@localhost//')
 CELERY_ENABLE_UTC = False
@@ -123,8 +123,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'America/Santiago'
-#'America/Santiago'
+TIME_ZONE = 'America/Sao_Paulo'
+#'America/Sao_Paulo'
 
 USE_I18N = True
 

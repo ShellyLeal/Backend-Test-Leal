@@ -1,7 +1,7 @@
 {% load widget_tweaks %}
 <head>
 
-    {% block title %}<title>Cornershop's Backend test</title>{% endblock %}
+    {% block title %}<title>Cornershop's Restaurant</title>{% endblock %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,7 +18,7 @@
     </h1>
         {% for pk, item in menu_list.items %}
         <h3>
-            There is a registered menu for {{item.date}} 
+            Here is the menu for the day: {{item.date}} 
             <a href="{% url 'edit' pk %}">Edit</a>
             <a href="{% url 'delete' pk %}">Delete</a>
         </h3>
