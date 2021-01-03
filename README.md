@@ -56,6 +56,7 @@ You can run the tests with the following command:
     python manage.py test
     
 The ideal is to get the following results, if the tests results are positive:
+![UnitTests](https://github.com/ShellyLeal/Backend-Test-Leal/tree/progress/docs/unittest.JPG)
 
 
 
