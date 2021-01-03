@@ -15,6 +15,9 @@ Please create a virtual environment before working on the project. Here are the 
 # Preparing the Slack environment
 
 You will need to create a Slack group for receiving the restaurant's update about the daily menu.
+Here's what mine looks like:
+
+![Slack Demo](https://github.com/ShellyLeal/Backend-Test-Leal/blob/progress/docs/slackdemo.JPG)
 
 
 After creating the group and the proper channel, you need to create a Slack API. Here are the instructions for doing so: https://api.slack.com/apps
