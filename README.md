@@ -27,6 +27,19 @@ and update the file with the following line:
 
     127.0.0.1		noracornershop.io:8000
 
+The setup.py file has the informations for setting up the Slack environment as well as the limit hour for the meal requests.
+Here is how it looks like:
+
+    # This is the time limit for the clients to request a meal
+    HOUR = 11 # AM CLT
+
+After 11AM, the employees will receive the following message:
+
+![Not Available](https://github.com/ShellyLeal/Backend-Test-Leal/blob/progress/docs/notav.JPG)
+
+
+So be sure to check the time and edit it while working on this project.
+
 # Preparing the Slack environment
 
 You will need to create a Slack group for receiving the restaurant's update about the daily menu.
